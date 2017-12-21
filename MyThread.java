@@ -1,10 +1,10 @@
-/*********************************
+/******************************************
  *
- *  Title:  Simple Threads Implementation
+ *  Title:  Simple Java Threads Implementation
  *  Author: zMrDevJ
  *  Date: 12/21/2017
  *
- ********************************/
+ *****************************************/
 
 /* Main class */
 public class MyThread{
