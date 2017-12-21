@@ -22,6 +22,14 @@ public class MyThread{
 		t1.start();
 		t2.start();
 
+		/* Wait for threads end */
+		try{
+			t1.join();
+			t2.join();
+		}catch(InterruptedException ie){
+			ie.printStackTrace();
+		}
+
 	}
 }
 
