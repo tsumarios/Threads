@@ -86,7 +86,7 @@ int main(int argc, char const *argv[])
 		exit(-1);
 	}
 
-	/* Main process wait for threads' ends */
+	/* Main process waits for threads' ends */
 	pthread_join(t[0], NULL);
 	pthread_join(t[1], NULL);
 
