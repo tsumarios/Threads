@@ -1,10 +1,10 @@
-/*********************************
+/******************************************
  *
- *  Title:  Simple Threads Implementation
+ *  Title:  Simple C Threads Implementation
  *  Author: zMrDevJ
  *  Date: 12/21/2017
  *
- ********************************/
+ *****************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,7 +22,7 @@ int shared = 0;
 void tRun1(){
 
 	for(int i = 0; i < 30; i++){
-		/* Wait for random numer between 1 and 3 */
+		/* Wait for random number between 1 and 3 */
 		int r = rand()%3+1;
 		sleep(r);
 
