@@ -42,7 +42,7 @@ void tRun1(){
 void tRun2(){
 	
 	for(int i = 0; i < 30; i++){
-		/* Wait for random numer between 1 and 3 */
+		/* Wait for random number between 1 and 3 */
 		int r = rand()%3+1;
 		sleep(r);
 
