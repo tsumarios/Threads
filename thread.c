@@ -70,8 +70,8 @@ int main(int argc, char const *argv[])
 	/* Generate a random seed */
 	srand(time(NULL));
 
-	/* Initialize mutex lock */
-	pthread_mutex_init(&mutex, NULL);
+	/* Initialize mutex lock (same effect by using the macro PTHREAD_MUTEX_INITIALIZER) */
+	//pthread_mutex_init(&mutex, NULL);
 
 	/* Create an array of n threads */
 	pthread_t t[n];
